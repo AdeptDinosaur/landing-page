@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none
+}
+.hero {
+    display: flex;
+}
+
+.hero-image {
+    max-width: 50%;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.pic {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.quote {
+    max-width: 400px;
+}
+
+.quote h3 {
+    display: flex;
+    justify-content: flex-end;
+}
