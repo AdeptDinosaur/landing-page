@@ -1,7 +1,6 @@
 body {
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     margin: 0;
     font-family: roboto, sans-serif;
@@ -18,16 +17,28 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    justify-content: space-around
+    justify-content: center;
 }
+
+.header ul  {
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .info ul li {
     display: flex;
     width: 100px;
 }
+
 .hero {
     display: flex;
     padding-left: 115px;
     padding-right: 115px;
+    
 }
 
 .hero-image {
@@ -36,41 +47,86 @@ ul {
     padding-left: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-bottom: 100px;
 }
+
 .hero-column h2 {
     font-size: 48px;
     font-weight: bold;
 }
+
 .hero-column p {
     font-size: 18px;
 }
+
+.hero-column button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: 0;
+    padding: 5px 20px;
+    margin-bottom: 100px;
+}
+
 .info {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 100px;
     
 }
 
 .pic {
     max-height: 150px;
     max-width: 150px;
-    border: 3px #1F2937;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+    margin-left: 100px;
     
 }
 
 .caption {
     display: flex;
     text-align: center;
-    padding-right: 100px;
+    padding-right: 20px;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
-
 .quote {
-    max-width: 400px;
+    width: 100%;
+    background-color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    width: 400px;
+    
 }
 
 .quote h3 {
+    padding-left: 100px;
+}
+
+.action {
+    background-color: #3882F6;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 30px 60px;
+    border-radius: 20px;
+    color: white;
+    gap: 50px;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+    border: 3px solid white;
 }
 
 .header, .hero, .footer {
